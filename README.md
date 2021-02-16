@@ -11,6 +11,7 @@ Ce package permet un démarrage rapide de Themosis 2.0 avec un docker configuré
 ## Installation
 
 ```shell
+cp .env.sample .env
 docker-compose build
 docker-compose up
 
